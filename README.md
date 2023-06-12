@@ -2,7 +2,7 @@
 - API rodando na URL:  https://springbootservice-production.up.railway.app
 - /funcionário (endpoint) {CRUD}
 - /evento (endpoint) {CRUD}
-- /gesor (endpoint)  {CRUD}
+- /gestor (endpoint)  {CRUD}
 - Utilize uma ferramenta para testar a API com os metodos POST,PUT,DELETE E GET
 
 ## Exemplo de requisição POST
