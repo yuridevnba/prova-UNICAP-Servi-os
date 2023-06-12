@@ -76,13 +76,13 @@ public class FuncionarioController {
 	    if (optionalFuncionario.isPresent()) {
 	        Funcionario funcionario = optionalFuncionario.get();
 	        
-	        // Atualize os campos necessários do objeto 'funcionario' com base nos dados fornecidos em 'obj'
+	      
 	        funcionario.setNome(obj.getNome());
 	        funcionario.setEmail(obj.getEmail());
 	        funcionario.setSenha(obj.getSenha());
-	        // ... atualize outros campos conforme necessário
+	       
 	        
-	       repository.save(funcionario); // Salve as alterações no banco de dados
+	       repository.save(funcionario); 
 	        
 	        return ResponseEntity.ok(funcionario);
 	    } else {

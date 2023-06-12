@@ -49,7 +49,7 @@ public class GestorController {
 	@PostMapping
 	public ResponseEntity<Gestor> insert(@RequestBody Gestor obj) {
 		obj = service.insert(obj);
-		// return ResponseEntity.ok().body( obj);// retorna 200 q n é o ideal
+		
 
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obj.getIdGestor()).toUri();
 
