@@ -1,8 +1,8 @@
-# rhp-app-banckend
-- API rodando no link http://localhost:8080/reuniao/cadastrar   ou http://localhost:8080/funcionario
-- /funcionário (endpoint) {get,post,update,delete}
-- /reuniao (endpoint)    {cadastrar,atualizar,}
-
+# springboot_aos
+- API rodando na URL:  https://springbootservice-production.up.railway.app
+- /funcionário (endpoint) {CRUD}
+- /evento (endpoint) {CRUD}
+- /gesor (endpoint)  {CRUD}
 - Utilize uma ferramenta para testar a API com os metodos POST,PUT,DELETE E GET
 
 ## Exemplo de requisição POST
